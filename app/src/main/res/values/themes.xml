@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.KoniApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/koni_primary</item>
+        <item name="colorPrimaryVariant">@color/koni_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/koni_medium</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/koni_dark</item>
+        <item name="android:navigationBarColor">@color/koni_dark</item>
+        <item name="android:windowBackground">@color/koni_dark</item>
+    </style>
+
+    <style name="Theme.KoniApp.Splash" parent="Theme.KoniApp">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/koni_dark</item>
+        <item name="android:windowBackground">@color/koni_dark</item>
+    </style>
+
+</resources>

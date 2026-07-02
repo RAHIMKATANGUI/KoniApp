@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Fond arrondi vert foncé -->
+    <path
+        android:fillColor="#073D2C"
+        android:pathData="M44,0 L156,0 Q200,0 200,44 L200,156 Q200,200 156,200 L44,200 Q0,200 0,156 L0,44 Q0,0 44,0 Z" />
+
+    <!-- Toit maison (triangle) -->
+    <path
+        android:fillColor="#6ECBA8"
+        android:fillAlpha="0.95"
+        android:pathData="M100,28 L168,82 L32,82 Z" />
+
+    <!-- Corps maison -->
+    <path
+        android:fillColor="#26A882"
+        android:fillAlpha="0.85"
+        android:pathData="M42,82 L158,82 L158,156 Q158,160 154,160 L46,160 Q42,160 42,156 Z" />
+
+    <!-- Porte -->
+    <path
+        android:fillColor="#052E20"
+        android:pathData="M80,107 Q80,87 100,87 Q120,87 120,107 L120,156 L80,156 Z" />
+
+    <!-- Fenetre gauche -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.25"
+        android:pathData="M54,95 L78,95 Q81,95 81,98 L81,117 Q81,120 78,120 L54,120 Q51,120 51,117 L51,98 Q51,95 54,95 Z" />
+
+    <!-- Fenetre droite -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.25"
+        android:pathData="M122,95 L146,95 Q149,95 149,98 L149,117 Q149,120 146,120 L122,120 Q119,120 119,117 L119,98 Q119,95 122,95 Z" />
+
+    <!-- Texte KONI -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,185 L58,170 L62,170 L62,176 L68,170 L73,170 L67,176 L74,185 L69,185 L64,178 L62,180 L62,185 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,185 L76,170 L80,170 L80,179 L87,170 L91,170 L91,185 L87,185 L87,176 L80,185 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M94,185 L94,170 L98,170 L98,185 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M102,185 L102,170 L106,170 L106,176 L112,176 L112,170 L116,170 L116,185 L112,185 L112,180 L106,180 L106,185 Z" />
+
+</vector>

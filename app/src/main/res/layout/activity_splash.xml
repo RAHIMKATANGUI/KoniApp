@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#073D2C"
+    android:padding="40dp">
+
+    <!-- Logo SVG converti en cercle avec initiales -->
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_koni_logo"
+        android:contentDescription="KONI Logo"
+        android:alpha="0" />
+
+    <TextView
+        android:id="@+id/splash_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KONI"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:letterSpacing="0.2"
+        android:layout_marginTop="20dp"
+        android:alpha="0" />
+
+    <TextView
+        android:id="@+id/splash_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logiciel de Gestion Immobilière"
+        android:textSize="13sp"
+        android:textColor="#6ECBA8"
+        android:layout_marginTop="8dp"
+        android:alpha="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editeur : KONE KATANGUI"
+        android:textSize="10sp"
+        android:textColor="#3A6B5A"
+        android:layout_marginTop="6dp"
+        android:alpha="0" />
+
+</LinearLayout>
