@@ -81,7 +81,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="KONI v1.0 — Editeur : KONE KATANGUI"
+            android:text="KONI v1.1 — Editeur : KONE KATANGUI"
             android:textSize="10sp"
             android:textColor="#2A5A48"
             android:layout_marginTop="40dp" />
